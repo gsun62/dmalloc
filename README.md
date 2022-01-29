@@ -1,16 +1,5 @@
-CS 61 Problem Set 1
-===================
+This is a debugging memory allocator that:
 
-**Fill out both this file and `AUTHORS.md` before submitting.** We grade
-anonymously, so put all personally identifying information, including
-collaborators and citations, in `AUTHORS.md`.
-
-Grading notes (if any)
-----------------------
-REGRADE
-
-
-Extra credit attempted (if any)
--------------------------------
-Reallocation: I implemented m61_realloc
-More tests: I created tests 046-048 testing m61_realloc
+1) tracks memory usage
+2) catches various programming errors 
+3) implements heavy hitter reporting, which gives information on where most of the dynamically allocated memory is allocated  
